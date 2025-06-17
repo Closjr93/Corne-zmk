@@ -16,6 +16,13 @@
             bindings = <&none &kp LS(A) &kp LS(F) &kp LS(T) &kp LS(E) &kp LS(R) &kp SPACE &kp LS(T) &kp LS(H) &kp LS(E) &kp SPACE &kp LS(F) &kp LS(A) &kp LS(C) &kp LS(T) &kp RET &kp LS(T) &kp LS(Y) &kp LS(P) &kp LS(E) &kp COLON &kp SPACE &kp LS(S) &kp LS(E) &kp LS(R) &kp LS(V) &kp LS(I) &kp LS(C) &kp LS(E) &kp RET &kp LS(I) &kp LS(N) &kp LS(V) &kp LS(O) &kp LS(I) &kp LS(C) &kp LS(E) &kp SPACE &kp LS(N) &kp LS(U) &kp LS(M) &kp LS(B) &kp LS(E) &kp LS(R) &kp COLON &kp SPACE &kp RET>;
             label = "ATF";
         };
+
+        Password: Password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(E) &kp L &kp E &kp N &kp AT &kp LS(C) &kp A &kp R &kp L &kp N0 &kp S &kp N1 &kp N1 &kp N1 &kp N0>;
+            label = "PASSWORD";
+        };
     };
 
     keymap {
