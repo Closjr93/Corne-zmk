@@ -53,10 +53,10 @@
 
         Upper {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &kp K_SCREENSAVER    &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans          &trans        &trans     &trans  &trans
+                        &trans  &trans  &trans               &trans  &trans          &trans
             >;
         };
     };
