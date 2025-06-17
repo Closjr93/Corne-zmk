@@ -44,7 +44,7 @@
 
         Lower {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &ATF      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &Password  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans     &trans    &trans  &trans  &trans
