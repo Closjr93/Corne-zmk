@@ -23,6 +23,13 @@
             bindings = <&kp LS(E) &kp L &kp E &kp N &kp AT &kp LS(C) &kp A &kp R &kp L &kp N0 &kp S &kp N1 &kp N1 &kp N1 &kp N0>;
             label = "PASSWORD";
         };
+
+        Lock: Lock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp RIGHT_ALT &kp DELETE &kp KP_ENTER>;
+            label = "LOCK";
+        };
     };
 
     keymap {
