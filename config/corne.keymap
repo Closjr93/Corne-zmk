@@ -27,7 +27,7 @@
         Lock: Lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp RIGHT_ALT &kp DELETE &kp KP_ENTER>;
+            bindings = <&kp LC(LA(DELETE)) &kp KP_ENTER>;
             label = "LOCK";
         };
     };
