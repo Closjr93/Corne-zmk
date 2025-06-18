@@ -12,7 +12,7 @@
         ATF: ATF {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(A) &kp LS(F) &kp LS(T) &kp LS(E) &kp LS(R) &kp SPACE &kp LS(T) &kp LS(H) &kp LS(E) &kp SPACE &kp LS(F) &kp LS(A) &kp LS(C) &kp LS(T) &kp RET &kp LS(T) &kp LS(Y) &kp LS(P) &kp LS(E) &kp COLON &kp SPACE &kp LS(S) &kp LS(E) &kp LS(R) &kp LS(V) &kp LS(I) &kp LS(C) &kp LS(E) &kp RET &kp LS(I) &kp LS(N) &kp LS(V) &kp LS(O) &kp LS(I) &kp LS(C) &kp LS(E) &kp SPACE &kp LS(N) &kp LS(U) &kp LS(M) &kp LS(B) &kp LS(E) &kp LS(R) &kp COLON &kp SPACE &kp RET>;
+            bindings = <&kp LS(A) &kp LS(F) &kp LS(T) &kp LS(E) &kp LS(R) &kp SPACE &kp LS(T) &kp LS(H) &kp LS(E) &kp SPACE &kp LS(F) &kp LS(A) &kp LS(C) &kp LS(T) &kp KP_ENTER &kp LS(T) &kp LS(Y) &kp LS(P) &kp LS(E) &kp COLON &kp SPACE &kp LS(S) &kp LS(E) &kp LS(R) &kp LS(V) &kp LS(I) &kp LS(C) &kp LS(E) &kp KP_ENTER &kp LS(I) &kp LS(N) &kp LS(V) &kp LS(O) &kp LS(I) &kp LS(C) &kp LS(E) &kp SPACE &kp LS(N) &kp LS(U) &kp LS(M) &kp LS(B) &kp LS(E) &kp LS(R) &kp COLON &kp SPACE>;
             label = "ATF";
         };
 
