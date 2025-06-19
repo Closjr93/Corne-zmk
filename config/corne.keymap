@@ -30,6 +30,13 @@
             bindings = <&kp LG(L) &kp KP_ENTER>;
             label = "LOCK";
         };
+
+        unlock: unlock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LC(LA(DELETE))>;
+            label = "UNLOCK";
+        };
     };
 
     keymap {
@@ -61,10 +68,10 @@
 
         Upper {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &Lock     &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
-&bt BT_NXT  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&bt BT_CLR  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans     &trans  &trans
-                            &trans  &trans  &trans    &trans  &trans          &trans
+&trans      &trans  &trans  &trans  &trans  &Lock      &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
+&bt BT_NXT  &trans  &trans  &trans  &trans  &unlock    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&bt BT_CLR  &trans  &trans  &trans  &trans  &trans     &trans  &trans          &trans        &trans     &trans  &trans
+                            &trans  &trans  &trans     &trans  &trans          &trans
             >;
         };
     };
