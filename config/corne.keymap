@@ -59,19 +59,28 @@
 
         Lower {
             bindings = <
-&trans            &trans  &trans  &kp LC(LA(PLUS))  &trans     &ATF         &kp PLUS   &kp N7  &kp N8            &kp N9  &kp KP_MULTIPLY  &kp DEL
-&trans            &trans  &trans  &trans            &trans     &trans       &kp MINUS  &kp N4  &kp N5            &kp N6  &kp KP_DIVIDE    &trans
-&kp LC(LEFT_ALT)  &trans  &trans  &trans            &Password  &trans       &kp N0     &kp N1  &kp N2            &kp N3  &kp EQUAL        &trans
-                                  &trans            &trans     &kp SPACE    &kp ENTER  &trans  &kp LC(LEFT_ALT)
+&none             &none  &none  &kp LC(LA(PLUS))  &none      &ATF         &kp PLUS   &kp N7  &kp N8            &kp N9  &kp KP_MULTIPLY  &kp DEL
+&none             &none  &none  &none             &none      &none        &kp MINUS  &kp N4  &kp N5            &kp N6  &kp KP_DIVIDE    &none
+&kp LC(LEFT_ALT)  &none  &none  &none             &Password  &none        &kp N0     &kp N1  &kp N2            &kp N3  &kp EQUAL        &none
+                                &none             &none      &kp SPACE    &kp ENTER  &none   &kp LC(LEFT_ALT)
             >;
         };
 
         Upper {
             bindings = <
-&trans      &trans  &trans  &trans  &trans  &Lock      &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
-&bt BT_NXT  &trans  &trans  &trans  &trans  &unlock    &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&bt BT_CLR  &trans  &trans  &trans  &trans  &trans     &trans  &trans          &trans        &trans     &trans  &trans
-                            &trans  &trans  &trans     &trans  &trans          &trans
+&none       &none  &none  &none  &none  &Lock      &none  &none           &kp UP_ARROW  &none      &none  &none
+&bt BT_NXT  &none  &none  &none  &none  &unlock    &none  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none  &none
+&bt BT_CLR  &none  &none  &none  &none  &none      &none  &none           &none         &none      &none  &none
+                          &none  &none  &none      &none  &none           &none
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
