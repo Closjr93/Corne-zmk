@@ -59,10 +59,10 @@
 
         Lower {
             bindings = <
-&none         &none  &none  &kp LC(LA(PLUS))  &none      &ATF         &kp PLUS   &kp N7  &kp N8            &kp N9  &kp KP_MULTIPLY  &kp DEL
-&none         &none  &none  &none             &none      &none        &kp MINUS  &kp N4  &kp N5            &kp N6  &kp KP_DIVIDE    &none
-&kp LS(LALT)  &none  &none  &none             &Password  &none        &kp N0     &kp N1  &kp N2            &kp N3  &kp EQUAL        &none
-                            &none             &none      &kp SPACE    &kp ENTER  &none   &kp LC(LEFT_ALT)
+&none         &none       &none  &kp LC(LA(PLUS))  &none      &ATF         &kp PLUS   &kp N7  &kp N8            &kp N9  &kp KP_MULTIPLY  &kp DEL
+&none         &bt BT_NXT  &none  &none             &none      &none        &kp MINUS  &kp N4  &kp N5            &kp N6  &kp KP_DIVIDE    &none
+&kp LS(LALT)  &none       &none  &none             &Password  &none        &kp N0     &kp N1  &kp N2            &kp N3  &kp EQUAL        &none
+                                 &none             &none      &kp SPACE    &kp ENTER  &none   &kp LC(LEFT_ALT)
             >;
         };
 
